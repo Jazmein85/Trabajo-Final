@@ -1,0 +1,389 @@
+
+.m-logo{
+    width: 100px !important;
+
+}
+/* siguiente seccion*/
+.contenedor-principal{
+    margin-top: 100px;
+
+}
+.text-principal{
+    text-align: center;
+    border-color: transparent;
+    border-style: groove; 
+}
+.text-principal h1 {
+    color: #3a9b7b;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+   
+.text-principal p{
+    color: #8b8b8bcc;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px){
+    .text-principal{
+        font-size: 40px;
+    }
+    
+}
+
+
+.pasos{
+    text-align: center;
+}
+.pasos h4 {
+    color: #3a9b7b;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.pasos img{
+    width: 180px;
+}
+.contenedor-principal .signup-form{
+    margin-top: 35px;
+    text-align: center;
+       }
+
+.contenedor-principal form{
+        height: 25px;
+    }
+
+
+    .signup-form{
+        margin-top: 35px;
+    }
+
+    .signup-form input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    max-width: 250px;
+    border: 1px solid #b6b6b6;
+    height: 100%;
+    border-radius: 8px;
+    overflow: visible;
+    }
+    .signup-form button{
+        background:#43b38d ;
+        height: 100%;
+        border-radius: 5px;
+        overflow: visible;
+           color: #fff;
+        border: none;
+       border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+   /* adaptativo*/    
+
+    @media (max-width: 600px){
+form .signup-form input {
+    width: 60%;
+}
+form.signup-form button {
+    width: 40%;
+}
+ }
+
+ .text{
+     margin-top: 50px;
+     text-align: center;
+    color: #8b8b8bcc;
+ }
+
+
+/*imagen*/
+.imagen{
+    margin-top: 45px;
+    text-align: center;
+    background-color: #43b38d;
+}
+.imagen .banner{
+    width: 100%;
+
+}
+.banner img{
+    vertical-align: middle;
+    width: 500px;
+ 
+}
+
+/* seccion del video*/
+.video{
+    margin-top: 35px;
+    display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.text-video .parrafo{
+    margin-bottom: 15px;;
+}
+.text-video h3{
+    color:#43b38d;
+}
+
+.text-video p{
+    font-size: 14px;
+    margin-right: 12px;
+    text-align: center;
+}
+.formulario{
+    text-align: center;
+    margin-top: 15px;
+    height: 55px;
+}
+.formulario button{
+    background-color: #43b38d; 
+    color: #fff;
+}
+
+/* feautures*/
+.features {
+    margin-top: 45px;
+    background-color: #025157;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+}
+.features .feature-card {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-style: groove;/*borra estilo*/
+    border-color: purple;/*borra estilo*/
+}
+.feature-content{
+    display: block;
+}
+.features .feature-card .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+}
+.features .feature-card .feature-content img {
+    width: 50px;
+}
+.features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+.features .feature-card .feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.features .feature-card .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+.features .feature-card .feature-image {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
+
+}
+.features .feature-card .feature-image figure, .features .feature-card .feature-image img {
+    margin-top: 0;
+    height: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+
+}
+
+/* section del carrusel no funciona ppr que hay que aplicar javay texto ala par los contenedores principales
+y los que estan dentros de ellos principales esta aplicado border style y border color borras esos*/
+.success-stories {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.success-stories .overview {
+    flex: 2;
+    padding-right: 100px;
+}
+.success-stories .overview h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+.success-stories .overview p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.success-stories .overview button {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+    background-color: #025157;
+    color: #fff;
+}
+.overview figure {
+    margin-top: 32px;
+    margin: 0 0 1rem;
+}
+
+.success-stories .overview img {
+    width: 500px;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.success-stories .stories-carousel {
+    flex: 1;
+}
+.carousel-inner {
+    width: 100%;
+    overflow: hidden;
+}
+.stories-carousel .card {
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.card-media figure {
+    margin-top: 0;
+}
+.card-media img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    vertical-align: middle;
+    border-style: none;
+}
+.card-media .company {
+    position: relative;
+    top: -50px;
+    left: 180px;
+    width: 100px;
+    height: 95px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-media img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    vertical-align: middle;
+    border-style: none;
+}
+.card-body{
+    position: relative;
+    top: -50px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+.card-body h4 {
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    
+}
+.card-body .results {
+    display: flex;
+    align-items: center;
+    color: #828282;
+    margin-top: 15px;
+}
+.card-body .results img {
+    width: 26px;
+    margin-right: 20px;
+    vertical-align: middle;
+    border-style: none;
+}
+.card-footer {
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+}
+
+.card-footer button {
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-weight: 400;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    width: 80%;
+    margin-left: 28px;
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    height: 100%;
+}
+
+
+.name-company{
+    background-color: #a1d683;
+    text-align: center;
+}
+.text-carrusel p{
+    color: #7e7e7e;
+    font-family: "Alegreya", serif;
+    font-size: 180px;
+}
+/*color footer*/
+ .bg-footer{
+     background-color:#025157 ;
+
+ }
+
+
+
+
+
+
+
+
+
+
+

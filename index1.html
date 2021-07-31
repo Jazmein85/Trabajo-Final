@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />  
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-color py-0 bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="fotos/logowe.jpg " class="m-logo" alt=""></a>
+
+          <button class="navbar-toggler bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark" aria-current="page" href="#main">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-dark" href="#galeria">Programa una recolección</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-dark" href="#Testimonio" id="navbarDropdown">
+                  Comunidad.
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-dark" href="#footer" id="navbarDropdown">
+                  Contacto
+                </a>
+              </li>
+                </ul> 
+          </div>
+        </div>
+      </nav>
+      </header>
+
+      <!--contenedor principal--> 
+  <main class="contenedor-principal" id="main">
+    <div class="text-principal">
+      <h1>BioWaste</h1></p> Recicla el plástico de tu casa o negocio.</p>
+
+    </div>
+
+        <div class="pasos">
+
+       <h4> Escanea cualquier ticket de compra impreso o digital</h4> 
+        <img src="fotos/Paso1.svg">
+
+       <h4> 2. Mira en qué contenedor se desecha cada artículo </h4>
+         <img src="fotos/Paso2.svg">
+
+    
+      <h4> 3. Programa una recolección con un centro de reciclaje</h4>
+        <img src="fotos/Paso3.svg">
+   </div>
+
+      <!--formulario-->
+      <form class="signup-form">
+        <input type="email" placeholder="arrastra aquí tus tickets" />
+        <input type="email" placeholder="elige un ticket desde tu dispositivo" />
+        <button type="siguiente">
+          Enviar &rarr;
+        </button>
+      </form>
+
+      <p class="text">
+        Descarga nuestra app.
+        <br />
+        <strong>Elige entre uso libre o modo suscripción</strong> 
+      </p>
+    </main>
+    
+<!--carrusel-->
+<section class="container p-5" id="galeria">
+  <div class="row">
+    <div class="col overflow-hidden">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="fotos/supermercado1.jpg" class="d-block w-100" alt="1">
+        </div>
+        <div class="carousel-item">
+          <img src="fotos/reciclar2.jpg"" class="d-block w-100" alt="2">
+        </div>
+        <div class="carousel-item">
+          <img src="fotos/reciclar3.jpg"" class="d-block w-100" alt="3>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+  <!--video y el texto a la par-->
+  
+  <section class="video">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-5UxqleJeEU" 
+    title="YouTube video player" 
+    frameborder="0" 
+    llow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+
+    <div class="text-video">
+  <div class="parrafo">
+      <h3>Seamos el cambio sustentable para CDMX</h3>
+    </div>
+       <div class="formulario">
+        <p> Te decimos cómo reciclar tus plásticos</p>
+        <form class="signup">
+          <input type="email" placeholder="Enter email" />
+          <button>Elige una suscripción</button>
+        </form>
+      </div>
+    </section>
+
+      <!--la seccion card-->
+      <section class="features" id="Testimonio">
+
+
+        <article class="feature-card">
+          <div class="feature-content">
+            <h3>Plástico en México.</h3>
+            <p>
+              
+En México se producen más de siete millones de toneladas de plástico al año; el 48% es destinado a envases y embalajes que no necesariamente terminarán...
+            </p>
+            <a href="#">Leer más →</a>
+          </div>
+          <div class="feature-image">
+            <figure>
+              <img src="fotos/plasticoimpacto.jpg" alt="Leer más →" />
+            </figure>
+          </div>
+        </article>
+    
+    
+        <article class="feature-card">
+          <div class="feature-content">
+            <h3>¿Cuánto plástico se recicla en México?</h3>
+            <p>
+              En el país, sólo 9% de los plásticos se recicla, 13% es incinerado, y 79% se desecha en basureros y entornos naturales...
+            </p>
+            <a href="#">Leer más →</a>
+          </div>
+          <div class="feature-image">
+            <figure>
+              <img src="fotos/plasticoimpacto1.jpg"
+                alt="Leer más →" />
+            </figure>
+          </div>
+        </article>
+    
+    
+    
+        <article class="feature-card">
+          <div class="feature-content">
+            <h3>Te presentamos al "Zero Waste"</h3>
+            <p>
+              Zero Waste o Cero Residuos es una filosofía basada en un conjunto de prácticas para evitar lo máximo posible la generación de basura. La creadora...
+            </p>
+            <a href="#">Leer más →</a>
+          </div>
+          <div class="feature-image">
+            <figure>
+              <img src="fotos/plasticoimpacto3.png" alt="Leer más →" />
+            </figure>
+          </div>
+        </article>
+    
+    
+        <article class="feature-card">
+          <div class="feature-content">
+            <h3>El futuro del reciclaje</h3>
+            <p>
+              La cantidad de envases producidos y utilizados, y sus consecuentes residuos, no dejan de aumentar. Por suerte, la preocupación social y política sobre su correcta gestión crece también...
+            </p>
+            <a href="">Leer más →</a>
+          </div>
+          <div class="feature-image">
+            <figure>
+              <img src="fotos/plasticoimpacto2.jpg" alt="Leer más →" />
+            </figure>
+          </div>
+        </article>
+      </section>
+    
+
+  <!--Aqui trabajamos en pie de pagina-->
+  <footer class="p-4 bg-footer" id="footer">
+    <div class="container text-center">
+        <p class="lead text-light"> copyright 2021, practice </p>
+        <h6 class="lead text-light">Contactenos atraves de nuestras redes sociales</h6>
+        <a href="#"> <i class="bi bi-linkedin text-light fs-5 "></i> </a>  
+        <a href="#">  <i class="bi bi-twitter text-light fs-5"></i> </a>  
+        <a href="#"> <i class="bi bi-instagram text-light fs-5"></i> </a>  
+       <a href="#"> <i class="bi bi-facebook text-light fs-5"> </i> </a>
+    </div>
+  </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+</body>
+</html
